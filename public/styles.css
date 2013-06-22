@@ -26,11 +26,13 @@ h1 {
   display: inline-block;
   text-align: center;
   font-size: 4em;
+  font-family: 'Sigmar One', cursive;
 }
 
 .button {
   padding: 8px;
   font-size: 1.1em;
+  font-family: 'Sigmar One', cursive;
   border-radius: 7px;
   background: -webkit-linear-gradient(top, white, #747d7d);
 }
