@@ -1,0 +1,53 @@
+body {
+  font-family: 'Sigmar One', cursive;
+  background: url('witewall_3.png');
+}
+
+.maincontent {
+  width: 750px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+.board {
+  margin: 0 auto;
+  width: 475px;
+}
+
+.cells {
+  border: 1px solid gray;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 4px;
+  display: inline-block;
+  text-align: center;
+  font-size: 4em;
+}
+
+.button {
+  padding: 8px;
+  font-size: 1.1em;
+  border-radius: 7px;
+  background: -webkit-linear-gradient(top, white, #747d7d);
+}
+
+.buttons {
+  text-align: center;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.message, .instruction {
+  text-align: center;
+  font-size: 1.3em;
+}
+/** {
+  border: 1px solid red;
+}*/

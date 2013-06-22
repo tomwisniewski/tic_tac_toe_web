@@ -1,0 +1,17 @@
+<h1>Dario says <br />
+  "Tic Tac Toe is GREAT!"</h1>
+
+<form action="/" method="post">
+  <div class="board">
+    <div class="message"><%= @msg %></div>
+    <% @game.board.flatten.each do |cell| %>
+      <input type="text" name="cells[]" maxlength="1" onClick="this.select();" title="Please enter an X or a 0" pattern="[X ]|[0]" class="cells" value="<%= cell %>" /> 
+    <% end %>
+  </div>  
+  <div class="instruction">Please submit the square after every placement</div>
+  <div class="buttons">
+      <button class="button" type="submit">Submit Square</button>
+      <button class="button" type="button"><a href="/">New Game</a></button>
+  </div>  
+  
+</form>  
