@@ -1,7 +1,5 @@
 This repository contains my response to a coding challenge set in 2013 by Evgeny Shadchnev at Makers Academy.
 
-It re-uses and adapts my own code from an earlier coding challenge to build a console version of a tic tac toe game.
-
 Tic Tac Toe Sinatra Web App
 Write a tic tac toe game, similar to the sudoku sinatra application. It should be a sinatra app that allows two human players to play tic tac toe on the screen. You don't have to implement the functionality to play with the computer but you're welcome to try (it'll make the task considerably harder)
 
